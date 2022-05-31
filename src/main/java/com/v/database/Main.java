@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
 
-        // Проверка радотоспособности
+        // Проверка работоспособности
         System.out.println("Check select:");
         System.out.println(DBUtils.getStreamers());
         System.out.println(DBUtils.getSalary());
